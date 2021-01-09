@@ -1,10 +1,26 @@
 let TextInput = () => {
     return(
         <div>
-            <p>I like the color <span style = {{color: "blue", fontWeight: "bold"}}>blue</span> because it's so cool</p>
-            <p>Or select <span style ={{color:"red"}}>red</span> if you're a bummer</p>
-            <p>Then press the <span style ={{color: "green"}}> Submit</span> button</p>
-        </div>
+            <form>
+              <label>
+                 Name:
+                 <input type="text" name="name" />
+              </label>
+              <br></br>
+
+              <label>
+                  Occupation:
+                  <input type="text" occupation="occupation" />
+              </label>
+              <br></br>
+
+              <label>
+                  Years of experience:
+                  <input type="text" years of experience="years of experience" />
+              </label>
+ 
+            </form>
+        </div>       
     )
 }
 
